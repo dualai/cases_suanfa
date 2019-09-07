@@ -1,7 +1,5 @@
 package com.pig.make.stack_and_queue;
 
-import android.text.TextUtils;
-
 import com.pig.lib.LogUtil;
 
 public class Main_Stack_Queue {
