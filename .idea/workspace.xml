@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57fbc36-9fe3-48ff-aefc-8b4857c2f3a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/cases_suanfa/com/pig/make/recursion/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/cases_suanfa/com/pig/make/recursion/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/cases_suanfa/com/pig/make/recursion/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/cases_suanfa/com/pig/make/recursion/Solution2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/cases_suanfa/com/pig/make/recursion/Solution3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/make/recursion/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/make/recursion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/make/recursion/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/make/recursion/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/make/recursion/Solution3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pig/make/recursion2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pig/make/recursion2/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,46 +22,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/ListNode.java">
+        <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Solution2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="18">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Solution3.java">
+        <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion2/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="214">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -99,10 +64,12 @@
         <option value="$PROJECT_DIR$/src/com/pig/make/recursion/Solution2.java" />
         <option value="$PROJECT_DIR$/src/com/pig/make/recursion/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/pig/make/recursion/Solution3.java" />
+        <option value="$PROJECT_DIR$/src/com/pig/make/recursion2/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/pig/make/recursion2/Solution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="45" />
     <option name="width" value="1825" />
     <option name="height" value="1040" />
@@ -144,7 +111,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pig" type="462c0819:PsiDirectoryNode" />
               <item name="make" type="462c0819:PsiDirectoryNode" />
-              <item name="recursion" type="462c0819:PsiDirectoryNode" />
+              <item name="recursion2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,9 +153,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pig.make.linkedlist.LinkedListQueue" />
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pig.make.linkedlist.Main" />
       <module name="cases_suanfa" />
       <extension name="coverage">
         <pattern>
@@ -200,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pig.make.linkedlist.Main" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pig.make.recursion2.Solution" />
       <module name="cases_suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pig.make.linkedlist.*" />
+          <option name="PATTERN" value="com.pig.make.recursion2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LinkedListQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -277,18 +244,18 @@
       <workItem from="1567844059922" duration="946000" />
       <workItem from="1567845026436" duration="346000" />
       <workItem from="1567845390474" duration="1113000" />
-      <workItem from="1567846521870" duration="6865000" />
+      <workItem from="1567846521870" duration="12968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10205000" />
+    <option name="totallyTimeSpent" value="16308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="0" width="1460" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.23789173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.23789173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -297,7 +264,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5055679" side_tool="true" weight="0.22934473" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37885463" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37885463" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,7 +272,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32892805" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27312776" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27312776" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32892805" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -398,10 +365,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/ListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Solution2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Solution3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -412,24 +393,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="344">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Solution2.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion/Solution3.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pig/make/recursion2/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="214">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
