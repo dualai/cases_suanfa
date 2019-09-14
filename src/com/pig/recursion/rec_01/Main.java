@@ -85,7 +85,34 @@ public class Main {
 
         Main main = new Main();
         main.printNodeReverse(node0);
+
+        LinkedNode linkedNode = main.reverseLinkedList(node0);
+        main.printNodeReverse(linkedNode);
     }
+
+
+    /***
+     * 链表反转的递归解法
+     * https://zhuanlan.zhihu.com/p/59389994
+     */
+
+    /***
+     * 1—>2—>3->4
+     * @param node
+     * @return
+     */
+    private LinkedNode reverseLinkedList(LinkedNode node){
+        if(node == null || node.next == null){
+            return node;
+        }
+        //画个图，假设翻转完以后变成了4—>3->2  1—>2
+        LinkedNode newLinkedNode = reverseLinkedList(node.next);
+        LinkedNode node1 = node.next;
+        node1.next = node;
+        node.next = null;
+        return newLinkedNode;
+    }
+
 
 }
 
