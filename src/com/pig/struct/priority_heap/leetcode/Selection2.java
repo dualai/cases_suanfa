@@ -382,7 +382,7 @@ class Selection2 {
 //        int k = 2;
 //        printList((new Solution()).topKFrequent(nums, k));
         /**
-         * 打印结果肯定不是按照顺序的;
+         * 打印结果肯定不是按照出现次数大小顺序的;
          */
         int[] nums = {1, 2,2,2,2,2,2,2,2, 3,33,1,33,33,33,33,33,44,44,44,55,555,56};
         int k = 3;

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57fbc36-9fe3-48ff-aefc-8b4857c2f3a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/set_map/leetcode1/IntersectionArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/set_map/leetcode1/Morse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pig/struct/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pig/struct/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/task.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pig/struct/tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/tree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="384" column="25" selection-start-line="384" selection-start-column="25" selection-end-line="384" selection-end-column="25" />
+              <caret line="384" column="27" selection-start-line="384" selection-start-column="27" selection-end-line="384" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -317,18 +308,18 @@
       <workItem from="1568532344579" duration="11382000" />
       <workItem from="1568594251658" duration="2656000" />
       <workItem from="1568682252324" duration="1946000" />
-      <workItem from="1568856027625" duration="15094000" />
+      <workItem from="1568856027625" duration="15233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100837000" />
+    <option name="totallyTimeSpent" value="100976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1460" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.2834758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.29273504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,7 +327,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5055679" side_tool="true" weight="0.22934473" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32892805" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33039647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51248163" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -344,7 +335,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928775" weight="0.34067547" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928775" visible="true" weight="0.37151247" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007123" side_tool="true" weight="0.29809105" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32842416" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32892805" />
@@ -778,7 +769,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="384" column="25" selection-start-line="384" selection-start-column="25" selection-end-line="384" selection-end-column="25" />
+          <caret line="384" column="27" selection-start-line="384" selection-start-column="27" selection-end-line="384" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
