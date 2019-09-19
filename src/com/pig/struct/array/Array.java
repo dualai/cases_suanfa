@@ -1,179 +1,174 @@
 package com.pig.struct.array;
 
-
-/***
- * 左移: a[i-1] = a[i];  a[i] = a[i++]
- * 右移：a[i] = a[i-1];  a[i++] = a[i];
- *
- *
- */
 public class Array<E> {
 
     private E[] data;
-
-    /**
-     * 当前数据个数 && 并且指向第一个没有元素的位置；
-     */
     private int size;
 
-    public Array(int capacity) {
-        data = (E[]) new Object[capacity];
+    // 构造函数，传入数组的容量capacity构造Array
+    public Array(int capacity){
+        data = (E[])new Object[capacity];
         size = 0;
     }
 
-    public Array() {
+    // 无参数的构造函数，默认数组的容量capacity=10
+    public Array(){
         this(10);
     }
 
-    public int getCapacity() {
+    public Array(E[] arr){
+        data = (E[])new Object[arr.length];
+        for(int i = 0 ; i < arr.length ; i ++)
+            data[i] = arr[i];
+        size = arr.length;
+    }
+
+    // 获取数组的容量
+    public int getCapacity(){
         return data.length;
     }
 
-    public int getSize() {
+    // 获取数组中的元素个数
+    public int getSize(){
         return size;
     }
 
-    public boolean isEmpty() {
+    // 返回数组是否为空
+    public boolean isEmpty(){
         return size == 0;
     }
 
+    // 在index索引的位置插入一个新元素e
+    public void add(int index, E e){
 
-    public E get(int index) {
-        if (index < 0 || index > size - 1) {
-            throw new IllegalStateException("参数不合法");
-        }
+        if(index < 0 || index > size)
+            throw new IllegalArgumentException("Add failed. Require index >= 0 and index <= size.");
+
+        if(size == data.length)
+            resize(2 * data.length);
+
+        for(int i = size - 1; i >= index ; i --)
+            data[i + 1] = data[i];
+
+        data[index] = e;
+
+        size ++;
+    }
+
+    // 向所有元素后添加一个新元素
+    public void addLast(E e){
+        add(size, e);
+    }
+
+    // 在所有元素前添加一个新元素
+    public void addFirst(E e){
+        add(0, e);
+    }
+
+    // 获取index索引位置的元素
+    public E get(int index){
+        if(index < 0 || index >= size)
+            throw new IllegalArgumentException("Get failed. Index is illegal.");
         return data[index];
     }
 
-    public E getFirst(){
-        return get(0);
-    }
-
-    public E getLast(){
-        return get(size - 1);
-    }
-
-    public void set(int index, E e) {
-        if (index < 0 || index > size - 1) {
-            throw new IllegalStateException("参数不合法");
-        }
+    // 修改index索引位置的元素为e
+    public void set(int index, E e){
+        if(index < 0 || index >= size)
+            throw new IllegalArgumentException("Set failed. Index is illegal.");
         data[index] = e;
     }
 
     // 查找数组中是否有元素e
-    public boolean contains(E e) {
-        for (int i = 0; i < size; i++) {
-            if (data[i].equals(e))
+    public boolean contains(E e){
+        for(int i = 0 ; i < size ; i ++){
+            if(data[i].equals(e))
                 return true;
         }
         return false;
     }
 
     // 查找数组中元素e所在的索引，如果不存在元素e，则返回-1
-    public int find(E e) {
-        for (int i = 0; i < size; i++) {
-            if (data[i].equals(e))
+    public int find(E e){
+        for(int i = 0 ; i < size ; i ++){
+            if(data[i].equals(e))
                 return i;
         }
         return -1;
     }
 
-    public void addFirst(E e) {
-        add(0, e);
-    }
+    // 从数组中删除index位置的元素, 返回删除的元素
+    public E remove(int index){
+        if(index < 0 || index >= size)
+            throw new IllegalArgumentException("Remove failed. Index is illegal.");
 
-    public void addLast(E e) {
-        add(size, e);
-    }
+        E ret = data[index];
+        for(int i = index + 1 ; i < size ; i ++)
+            data[i - 1] = data[i];
+        size --;
+        data[size] = null; // loitering objects != memory leak
 
-    /***
-     * 禁止断层，必须连续加
-     * 添加的时候，需要data[i] = data[i-1]  从最高位开始，逐个移动,往右边移动
-     * 不能小于0或者断开形式的加入，必须连续加入，所以 index > size 既断开了
-     * @param index
-     * @param e
-     */
-    public void add(int index, E e) {
-        if (index < 0 || index > size) {
-            throw new IllegalStateException("参数不合法");
-        }
-
-        if (size == data.length) {
-            resize(data.length * 2);
-        }
-
-        for (int i = size; i > index; i--) {
-            data[i] = data[i - 1];
-        }
-
-        data[index] = e;
-        size++;
-    }
-
-    /**
-     * 向左移动,不需要处理最后一位data[size - 1];
-     */
-    public E remove(int index) {
-        if (index < 0 || index >= size) {
-            throw new IllegalStateException("参数不合法");
-        }
-        E delete = data[index];
-        for (int i = index; i < size - 1; i++) {
-            data[i] = data[i + 1];
-        }
-
-        size--;
-        data[size] = null;
-//
-//        if(size == data.length / 2){
-//            resize(data.length / 2);
-//        }
-
-
-        //如果data.length == 0 或者 data.length == 1,不处理扩容，因为不能初始化一个长度为0的数组
-        if(size == data.length / 4 && data.length / 2 != 0){
+        if(size == data.length / 4 && data.length / 2 != 0)
             resize(data.length / 2);
-        }
-
-        return delete;
+        return ret;
     }
 
-    private void resize(int newCapacity) {
-        E[] newArray = (E[]) new Object[newCapacity];
-        for (int i = 0; i < size;i++){
-            newArray[i] = data[i];
-        }
-        data = newArray;
-    }
-
-    public E removeLast() {
-        return remove(size - 1);
-    }
-
-    public E removeFirst() {
+    // 从数组中删除第一个元素, 返回删除的元素
+    public E removeFirst(){
         return remove(0);
     }
 
-    public void removeElement(E e) {
+    // 从数组中删除最后一个元素, 返回删除的元素
+    public E removeLast(){
+        return remove(size - 1);
+    }
+
+    // 从数组中删除元素e
+    public void removeElement(E e){
         int index = find(e);
-        if (index != -1) {
+        if(index != -1)
             remove(index);
-        }
+    }
+
+    public void swap(int i, int j){
+
+        if(i < 0 || i >= size || j < 0 || j >= size)
+            throw new IllegalArgumentException("Index is illegal.");
+
+        E t = data[i];
+        data[i] = data[j];
+        data[j] = t;
     }
 
     @Override
-    public String toString() {
+    public String toString(){
 
         StringBuilder res = new StringBuilder();
         res.append(String.format("Array: size = %d , capacity = %d\n", size, data.length));
         res.append('[');
-        for (int i = 0; i < size; i++) {
+        for(int i = 0 ; i < size ; i ++){
             res.append(data[i]);
-            if (i != size - 1)
+            if(i != size - 1)
                 res.append(", ");
         }
         res.append(']');
         return res.toString();
     }
 
+    // 将数组空间的容量变成newCapacity大小
+    private void resize(int newCapacity){
+
+        E[] newData = (E[])new Object[newCapacity];
+        for(int i = 0 ; i < size ; i ++)
+            newData[i] = data[i];
+        data = newData;
+    }
+
+    public E getLast(){
+        return get(size - 1);
+    }
+
+    public E getFirst(){
+        return get(0);
+    }
 }
