@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57fbc36-9fe3-48ff-aefc-8b4857c2f3a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/pig/struct/task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/task.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pig/struct/priority_heap/MaxHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="525">
+              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#277#278#0" expanded="true" />
@@ -38,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pig/struct/task.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+            <state relative-caret-position="241">
+              <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -108,15 +109,16 @@
         <option value="$PROJECT_DIR$/src/com/pig/struct/set_map/leetcode1/Morse.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/set_map/leetcode1/IntersectionArray.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/priority_heap/Solution.java" />
-        <option value="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection2.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/priority_heap/MaxHeap.java" />
+        <option value="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection.java" />
+        <option value="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection3.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/task.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="60" />
     <option name="width" value="1825" />
     <option name="height" value="1040" />
@@ -160,15 +162,6 @@
               <item name="pig" type="462c0819:PsiDirectoryNode" />
               <item name="struct" type="462c0819:PsiDirectoryNode" />
               <item name="priority_heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cases_suanfa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cases_suanfa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pig" type="462c0819:PsiDirectoryNode" />
-              <item name="struct" type="462c0819:PsiDirectoryNode" />
-              <item name="priority_heap" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,18 +318,20 @@
       <workItem from="1568856027625" duration="15445000" />
       <workItem from="1568877984613" duration="197000" />
       <workItem from="1568878634651" duration="285000" />
-      <workItem from="1568879023999" duration="201000" />
+      <workItem from="1568879023999" duration="228000" />
+      <workItem from="1568880500059" duration="13000" />
+      <workItem from="1568901693258" duration="4001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101871000" />
+    <option name="totallyTimeSpent" value="105912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1460" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.30555555" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.31410256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -378,20 +373,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/recursion/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/recursion/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pig/struct/recursion2/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -760,10 +741,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/andyMake/Java/jdk1.8.0_212/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="111" column="47" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="34" column="55" selection-start-line="32" selection-start-column="6" selection-end-line="34" selection-end-column="55" />
+        <state relative-caret-position="198">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -772,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pig/struct/priority_heap/MaxHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="525">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#277#278#0" expanded="true" />
@@ -784,8 +782,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pig/struct/task.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+        <state relative-caret-position="241">
+          <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
         </state>
       </provider>
     </entry>

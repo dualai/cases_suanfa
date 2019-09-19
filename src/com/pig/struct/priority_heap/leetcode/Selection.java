@@ -15,7 +15,7 @@ import java.util.Set;
 import java.util.TreeMap;
 
 /***
- * 00-建立一个最小堆（优先队列），最小堆的大小控制在m之内
+ * 00-建立一个最小堆（优先队列），最小堆的大小控制在m之内，（最小堆也可以用最大堆来实现，重新定义Comparable接口）
  * 01-for 每个数：
  * 02-----if 这个数比最小堆的堆顶元素大：
  * 03---------弹出最小堆的最小元素
@@ -37,6 +37,7 @@ public class Selection {
 
 
     /**
+     * 小和大的对比是相对的
      * 重要：用Comparable 接口 来定义，最小的元素反而处于最大堆的最高层
      */
     private final class Freq implements Comparable<Freq> {
