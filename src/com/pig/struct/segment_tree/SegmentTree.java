@@ -1,5 +1,7 @@
 package com.pig.struct.segment_tree;
 
+import com.pig.lib.LogUtil;
+
 public class SegmentTree<E> {
     // 在treeIndex的位置创建表示区间[l...r]的线段树
     private void buildSegmentTree(int treeIndex, int left, int right) {
@@ -77,8 +79,8 @@ public class SegmentTree<E> {
 
 
     // 在以treeIndex为根的线段树中[l...r]的范围里，搜索区间[queryL...queryR]的值
-    private E query(int treeIndex, int l, int r, int queryL, int queryR){
-        if(l == queryL && r == queryR){ //根据以下的搜索条件，随着递归，范围会逐渐缩小到l == queryL && r == queryR
+    private E query(int treeIndex, int l, int r, int queryL, int queryR) {
+        if (l == queryL && r == queryR) { //根据以下的搜索条件，随着递归，范围会逐渐缩小到l == queryL && r == queryR
             return tree[treeIndex];
         }
 
@@ -89,20 +91,84 @@ public class SegmentTree<E> {
         int mid = l + (r - l) / 2;
         int leftTreeIndex = leftChild(treeIndex);
         int rightTreeIndex = rightChild(treeIndex);
-        if(queryR <= mid){ //数据区间完全集中在左子树，搜索左子树； 这里的左子树的终点和创建线段树时候要对应
-            return query(leftTreeIndex,l,mid,queryL,queryR);
-        }else if(queryL >= mid + 1){ //数据区间完全集中在右子树，搜索右子树；这里的右子树的起点和创建时候要对应
-            return query(rightTreeIndex,mid+1,r,queryL,queryR);
+        if (queryR <= mid) { //数据区间完全集中在左子树，搜索左子树； 这里的左子树的终点和创建线段树时候要对应
+            return query(leftTreeIndex, l, mid, queryL, queryR);
+        } else if (queryL >= mid + 1) { //数据区间完全集中在右子树，搜索右子树；这里的右子树的起点和创建时候要对应
+            return query(rightTreeIndex, mid + 1, r, queryL, queryR);
         }
 
         //数据区间跨越左子树和右子树，那么分批同时搜索左子树和右子树
-        E leftResult = query(leftTreeIndex,l,mid,queryL,mid);
-        E rightResult = query(rightTreeIndex,mid+1,r,mid+1,queryR);
+        E leftResult = query(leftTreeIndex, l, mid, queryL, mid);
+        E rightResult = query(rightTreeIndex, mid + 1, r, mid + 1, queryR);
         return merger.merge(leftResult, rightResult);
+    }
+
+
+    // 将index位置的值，更新为e
+    public void set(int index, E e) {
+
+        if (index < 0 || index >= data.length)
+            throw new IllegalArgumentException("Index is illegal");
+
+        data[index] = e;
+        set(0, 0, data.length - 1, index, e,0);
+    }
+
+//    // 在以treeIndex为根的线段树中更新index的值为e
+//    private void set(int treeIndex, int l, int r, int index, E e) {
+//        if (l == r) {
+//            tree[treeIndex] = e;
+//            return;
+//        }
+//
+//        int mid = l + (r - l) / 2;
+//        // treeIndex的节点分为[l...mid]和[mid+1...r]两部分
+//
+//        int leftTreeIndex = leftChild(treeIndex);
+//        int rightTreeIndex = rightChild(treeIndex);
+//        if (index <= mid) {
+//            set(leftTreeIndex, l, mid, index, e);
+//        } else {
+//            set(rightTreeIndex, mid + 1, r, index, e);
+//        }
+//        tree[treeIndex] = merger.merge(tree[leftTreeIndex], tree[rightTreeIndex]);
+//    }
+
+
+    private void set(int treeIndex, int l, int r, int index, E e,int depth) {
+        if (l == r) {
+            LogUtil.d(generateDepthStr(depth)+" done ");
+            tree[treeIndex] = e;
+            return;
+        }
+
+        LogUtil.d(generateDepthStr(depth)+" set ");
+        int mid = l + (r - l) / 2;
+        // treeIndex的节点分为[l...mid]和[mid+1...r]两部分
+
+        int leftTreeIndex = leftChild(treeIndex);
+        int rightTreeIndex = rightChild(treeIndex);
+        if (index <= mid) {
+            set(leftTreeIndex, l, mid, index, e,depth+1);
+        } else {
+            set(rightTreeIndex, mid + 1, r, index, e,depth+1);
+        }
+        LogUtil.d(generateDepthStr(depth)+" merge");
+        tree[treeIndex] = merger.merge(tree[leftTreeIndex], tree[rightTreeIndex]);
+    }
+
+    private String generateDepthStr(int depth){
+        StringBuilder sb = new StringBuilder();
+        sb.append("depth:"+depth+" ");
+        for(int i = 0;i<depth;i++){
+            sb.append("--");
+        }
+        return sb.toString();
     }
 
     /**
      * 打印的肯定是merge好的结果，
+     *
      * @return
      */
     @Override
@@ -129,9 +195,12 @@ public class SegmentTree<E> {
         SegmentTree<Integer> segTree = new SegmentTree<>(nums,
                 (a, b) -> a + b);
         System.out.println(segTree);
-
         System.out.println(segTree.query(0, 2));
         System.out.println(segTree.query(2, 5));
+        System.out.println(segTree.query(0, 5));
+
+        segTree.set(3,8);
+
         System.out.println(segTree.query(0, 5));
     }
 }

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57fbc36-9fe3-48ff-aefc-8b4857c2f3a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/segment_tree/SumRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/pig/struct/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pig/struct/segment_tree/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/segment_tree/SegmentTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,19 +23,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/pig/struct/readme.txt">
+        <entry file="file://$PROJECT_DIR$/src/com/pig/struct/segment_tree/SegmentTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pig/struct/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="177">
+              <caret line="155" column="50" lean-forward="true" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
+              <folding>
+                <element signature="e#1649#1650#0" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1945#1946#0" expanded="true" />
+                <element signature="e#1981#1982#0" expanded="true" />
+                <element signature="e#2063#2064#0" expanded="true" />
+                <element signature="e#2099#2100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/Array.java" />
         <option value="$PROJECT_DIR$/src/com/pig/make/stack_and_queue/Main_Stack_Queue.java" />
         <option value="$PROJECT_DIR$/src/com/pig/make/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/pig/make/linkedlist/LinkedListQueue.java" />
@@ -108,9 +109,10 @@
         <option value="$PROJECT_DIR$/src/com/pig/struct/priority_heap/leetcode/Selection3.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/task.txt" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/segment_tree/Merger.java" />
-        <option value="$PROJECT_DIR$/src/com/pig/struct/segment_tree/SegmentTree.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/pig/struct/segment_tree/SumRange.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/readme.txt" />
+        <option value="$PROJECT_DIR$/src/com/pig/struct/segment_tree/SegmentTree.java" />
       </list>
     </option>
   </component>
@@ -125,8 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,10 +152,20 @@
               <item name="pig" type="462c0819:PsiDirectoryNode" />
               <item name="struct" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cases_suanfa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cases_suanfa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pig" type="462c0819:PsiDirectoryNode" />
+              <item name="struct" type="462c0819:PsiDirectoryNode" />
+              <item name="segment_tree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,18 +321,20 @@
       <workItem from="1568901693258" duration="5258000" />
       <workItem from="1568989341200" duration="1055000" />
       <workItem from="1569027598927" duration="3751000" />
-      <workItem from="1569216205317" duration="10062000" />
+      <workItem from="1569216205317" duration="10254000" />
+      <workItem from="1569246406014" duration="1756000" />
+      <workItem from="1569284102844" duration="3942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122037000" />
+    <option name="totallyTimeSpent" value="127927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1460" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.27492878" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.2820513" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -331,14 +343,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.5055679" side_tool="true" weight="0.22934473" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3876652" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2555066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51248163" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928775" visible="true" weight="0.50220263" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928775" weight="0.20998532" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007123" side_tool="true" weight="0.29809105" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32599118" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32892805" />
@@ -364,9 +376,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/tree/BST_bak1.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pig/recursion/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -754,10 +763,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/segment_tree/SumRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pig/struct/segment_tree/SegmentTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="104" column="12" selection-start-line="104" selection-start-column="12" selection-end-line="104" selection-end-column="12" />
+        <state relative-caret-position="177">
+          <caret line="155" column="50" lean-forward="true" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
           <folding>
             <element signature="e#1649#1650#0" expanded="true" />
             <element signature="e#1683#1684#0" expanded="true" />
@@ -766,20 +800,6 @@
             <element signature="e#2063#2064#0" expanded="true" />
             <element signature="e#2099#2100#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
         </state>
       </provider>
     </entry>
