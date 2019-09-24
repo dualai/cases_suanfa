@@ -135,6 +135,15 @@ public class SegmentTree<E> {
 //    }
 
 
+    /**
+     *
+     * @param treeIndex  线段树(4个长度的数组)中的下标
+     * @param l  该线段树坐标所表示的原始数组的区间左边起点
+     * @param r  该线段树坐标所表示的原始数组的区间右边起点
+     * @param index
+     * @param e
+     * @param depth
+     */
     private void set(int treeIndex, int l, int r, int index, E e,int depth) {
         if (l == r) {
             LogUtil.d(generateDepthStr(depth)+" done ");
