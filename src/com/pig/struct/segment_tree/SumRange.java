@@ -14,6 +14,12 @@ public class SumRange {
     // sum(i, j) = sum[j + 1] - sum[i]
 
 
+    /***
+     *                nums[0] nums[1] nums[2] nums[3] ...... nums[length - 1]
+     *
+     * sum[0](就是0)  sums[1] sums[2] sums[3] sums[4] ...... sums[length]
+     */
+
     /**
      * @param nums 原始数组
      */
