@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57fbc36-9fe3-48ff-aefc-8b4857c2f3a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/trie/WordDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pig/struct/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/pig/struct/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pig/struct/trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/trie/Trie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,17 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pig/struct/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="191" column="10" selection-start-line="191" selection-start-column="10" selection-end-line="191" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pig/struct/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="72" />
+            <state relative-caret-position="256">
+              <caret line="156" column="44" selection-start-line="156" selection-start-column="44" selection-end-line="156" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -323,18 +311,18 @@
       <workItem from="1569369898007" duration="1169000" />
       <workItem from="1569401081320" duration="2101000" />
       <workItem from="1569458306826" duration="2440000" />
-      <workItem from="1569471055112" duration="4374000" />
+      <workItem from="1569471055112" duration="5526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140816000" />
+    <option name="totallyTimeSpent" value="141968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1460" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.3062678" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.3062678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +338,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928775" visible="true" weight="0.21732746" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928775" visible="true" weight="0.34508076" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007123" side_tool="true" weight="0.29809105" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32599118" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32892805" />
@@ -784,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pig/struct/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="191" column="10" selection-start-line="191" selection-start-column="10" selection-end-line="191" selection-end-column="10" />
+        <state relative-caret-position="256">
+          <caret line="156" column="44" selection-start-line="156" selection-start-column="44" selection-end-line="156" selection-end-column="44" />
         </state>
       </provider>
     </entry>
