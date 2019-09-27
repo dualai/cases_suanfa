@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e57fbc36-9fe3-48ff-aefc-8b4857c2f3a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/hashtable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pig/struct/字符串哈希函数设计.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/pig/struct/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pig/struct/readme.txt" afterDir="false" />
     </list>
@@ -20,13 +22,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pig/struct/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="156" column="44" selection-start-line="156" selection-start-column="44" selection-end-line="156" selection-end-column="44" />
+            <state relative-caret-position="223">
+              <caret line="206" column="4" lean-forward="true" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="4" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/pig/struct/hashtable/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pig/struct/字符串哈希函数设计.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -52,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/pig/make/linkedlist/LinkedListQueue.java" />
         <option value="$PROJECT_DIR$/src/com/pig/make/linkedlist/Main.java" />
         <option value="$PROJECT_DIR$/src/com/pig/make/recursion/Main.java" />
         <option value="$PROJECT_DIR$/src/com/pig/make/recursion/ListNode.java" />
@@ -103,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/com/pig/struct/trie/WordDictionary.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/Main.java" />
         <option value="$PROJECT_DIR$/src/com/pig/struct/readme.txt" />
+        <option value="$PROJECT_DIR$/src/com/pig/struct/hashtable/Main.java" />
       </list>
     </option>
   </component>
@@ -117,8 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,10 +158,20 @@
               <item name="pig" type="462c0819:PsiDirectoryNode" />
               <item name="struct" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cases_suanfa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cases_suanfa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pig" type="462c0819:PsiDirectoryNode" />
+              <item name="struct" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,28 +179,28 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/pig/struct/trie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/pig/struct" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\proj_cases\cases_suanfa" />
-      <recent name="E:\proj_cases\cases_suanfa\src" />
-      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\make\set_map\map" />
-      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\make" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\struct" />
+      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\struct\trie" />
+      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\struct\priority_heap" />
+      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\struct\array" />
+      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\struct\set_map\map" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pig.make.tree" />
       <recent name="com.pig.make.recursion" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\struct\trie" />
-      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\struct\priority_heap" />
-      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\struct\array" />
-      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\struct\set_map\map" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\proj_cases\cases_suanfa" />
+      <recent name="E:\proj_cases\cases_suanfa\src" />
       <recent name="E:\proj_cases\cases_suanfa\src\com\pig\make\set_map\map" />
+      <recent name="E:\proj_cases\cases_suanfa\src\com\pig\make" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,18 +335,20 @@
       <workItem from="1569369898007" duration="1169000" />
       <workItem from="1569401081320" duration="2101000" />
       <workItem from="1569458306826" duration="2440000" />
-      <workItem from="1569471055112" duration="5526000" />
+      <workItem from="1569471055112" duration="5679000" />
+      <workItem from="1569491106607" duration="832000" />
+      <workItem from="1569544302255" duration="2990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141968000" />
+    <option name="totallyTimeSpent" value="145943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="0" width="1460" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.3062678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49443206" visible="true" weight="0.3148148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,7 +364,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928775" visible="true" weight="0.34508076" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928775" visible="true" weight="0.34508076" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007123" side_tool="true" weight="0.29809105" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32599118" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32892805" />
@@ -364,23 +390,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/pig/recursion/rec_01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/andyMake/Java/jdk1.8.0_212/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pig/struct/stack_and_queue/LoopQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -772,8 +781,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pig/struct/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="156" column="44" selection-start-line="156" selection-start-column="44" selection-end-line="156" selection-end-column="44" />
+        <state relative-caret-position="223">
+          <caret line="206" column="4" lean-forward="true" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/字符串哈希函数设计.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pig/struct/hashtable/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
         </state>
       </provider>
     </entry>
